@@ -1,0 +1,49 @@
+---
+title: Graphic Design Rreadings
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+name: Graphic Design Readings
+description: Writer
+avatar:
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github:
+  instagram:
+  linkedin:
+  pinterest:
+  rss:
+  twitter:
+  stackoverflow:
+  youtube:
+  googleplus:
+google_analytics: UA-91441149-1
+url:
+baseurl: ''
+highlighter: rouge
+permalink: "/:title/"
+version: v1.1.0
+sass:
+  style: :expanded
+gems:
+- jekyll-sitemap
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME

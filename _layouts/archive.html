@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div id="container">
+
+      <ul class="blog-tags-list clearfix">
+          <a href onclick="filter('all'); return false;"><li class="blog-tags-item">All</li></a>
+        {% assign sorted_tags = site.tags | sort %}
+        {% for tag in sorted_tags %}
+          {% assign c = tag | first %}
+          {% assign posts = tag | last %}
+          <a href onclick="filter('{{ c }}'); return false;"><li class="blog-tags-item" id="{{ c }}-item">
+            {{ c }}
+          </li></a>
+        {% endfor %}
+      </ul>
+
+    <main class="preview">
+
+<div class="column-titles order">
+<div class="year order">Date</div>
+<div class="project order">Title</div>
+<div class="type order">Type</div>
+<div class="publication order">Publication</div>
+</div>
+
+      <div class="blog-list-container" id="all-container">
+
+          {% for post in site.posts %}
+                           <a href="{{ site.github.url }}{{ post.url }}">
+        <div class="object">
+<div class="year">{{ post.pubdate }}</div>
+            <div class="project">{{ post.title }}</div>
+            <div class="type">{{ post.tags }}</div>
+            <div class="publication">{{ post.publication }}</div>
+        </div>
+          {% endfor %}
+      </div>
+
+      {% for tag in site.tags %}
+        {% assign c = tag | first %}
+        {% assign posts = tag | last %}
+        <div class="blog-list-container hidden" id="{{ c }}-container">
+
+            {% for post in posts %}
+              {% if post.tags contains c %}
+        <a href="{{ site.github.url }}{{ post.url }}">
+        <div class="object">
+<div class="year">{{ post.pubdate }}</div>
+            <div class="project">{{ post.title }}</div>
+            <div class="type">{{ post.tags }}</div>
+            <div class="publication">{{ post.publication }}</div>
+        </div>
+              {% endif %}
+            {% endfor %}
+
+        </div>
+      {% endfor %}
+
+        </main>
+    </div>
+
+<script>
+
+    function filter(tag) {
+  setActivetag(tag);
+  showContainer(tag);
+}
+
+function setActivetag(tag) {
+  // loop through all items and remove active class
+  var items = document.getElementsByClassName('blog-tags-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'blog-tags-item');
+  }
+
+  // set the selected tag's item to active
+  var item = document.getElementById(tag + '-item');
+  if(item) {
+    item.setAttribute('class', 'blog-tags-item active');
+  }
+}
+
+function showContainer(tag) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected tag
+  var list = document.getElementById(tag + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+
+
+    </script>
+
+
+
+

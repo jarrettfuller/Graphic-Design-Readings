@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+    header {
+    background: blue;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    }
+header nav ul {
+    display: none;
+}
+header button.toggle {
+    position: fixed;
+    float: right;
+    background: blue;
+    top: 1em;
+    right: 1em;
+    height: 4em;
+    width: 4em;
+    z-index: 900;
+    border: none;
+    box-shadow: 0;
+    outline: 0;
+}
+/*
+header button.toggle:active {
+    box-shadow: 0;
+    background: blue;
+}
+*/
+header button.toggle:focus {
+    outline: 0;
+}
+
+.toggle span {
+    display: block;
+    height: 4px;
+    background-color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+header nav ul {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 70px;
+    padding-bottom: 4em;
+    z-index: 99;
+    background: blue;
+    padding: 15px;
+    box-sizing: border-box;
+}
+    header nav ul li {
+    float: left;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 5px;
+    margin: 3px;
+    color: white;
+    list-style: none;
+}
+footer {
+    display: none;
+}
+
+@media (min-width: 715px) {
+
+header {
+    width: 225px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 20px;
+    color: white;
+}
+    header nav ul {
+        display: block;
+        position: static;
+        padding: 0px;
+    }
+
+    header button.toggle {
+        display: none;
+    }
+}
