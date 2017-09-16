@@ -38,7 +38,7 @@ permalink: "/:title/"
 version: v1.1.0
 sass:
   style: :expanded
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-feed
 exclude:
