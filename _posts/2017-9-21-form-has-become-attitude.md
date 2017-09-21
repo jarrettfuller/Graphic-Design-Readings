@@ -7,5 +7,5 @@ tags:
 - Art
 - Education
 year: 1985
-link: ThierrydeDuveFormAttitude.pdf
+link: PDF/ThierrydeDuveFormAttitude.pdf
 ---
