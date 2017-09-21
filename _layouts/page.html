@@ -11,14 +11,42 @@
         font-size: 48px;
         font-family: 'Exo 2', sans-serif;
     }
-    header {
-        width: 100%;
-        border-bottom: 1px solid white;
-        font-size: 18px;
+    .info {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+        padding-right: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: flex;
+}
+    .info a {
+        color: white;
+    }
+.key {
+    padding-right: 25px;
+/*    padding-top: 15px;*/
+    width: 95%;
+}
+.key li {
+    float: left;
+    color: grey;
+    padding-right: 25px;
+}
+.key li i {
+    padding-right: 5px;
+}
+.about-link {
+    padding-top: 0px;
+}
+    .about {
         padding: 25px;
     }
-    .about {
-        padding: 50px;
+    .bio {
+        font-size: 16px;
     }
     </style>
 
@@ -26,7 +54,12 @@
 </head>
 <body>
 
-    <header><a href="index">← Back</a></header>
+    <div class="info">
+    <div class="key">
+    <a href="/index">Graphic Design Readings</a></div>
+
+    <div class="about-link"><a href="/index">Archive</a></div>
+</div>
 
 <div class="about">
 

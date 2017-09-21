@@ -83,6 +83,7 @@ main h3 {
     display: block;
     padding-bottom: 25px;
 }
+/*
 .cat-title {
     width: 100%;
     float: right;
@@ -91,17 +92,33 @@ main h3 {
     padding-bottom: 25px;
     box-sizing: border-box;
 }
-.key {
-    float: right;
+*/
+.info {
+    width: 100%;
+    border-bottom: 1px solid blue;
+    padding-left: 295px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
     font-size: 13px;
     text-transform: uppercase;
+    display: flex;
+}
+.key {
     padding-right: 25px;
-    padding-top: 15px;
+/*    padding-top: 15px;*/
+    width: 90%;
 }
 .key li {
     float: left;
-    padding-right: 15px;
     color: grey;
+    padding-right: 25px;
+}
+.key li i {
+    padding-right: 5px;
+}
+.about-link {
+    padding-top: 0px;
 }
 h3 {
     font-size: 28px;
