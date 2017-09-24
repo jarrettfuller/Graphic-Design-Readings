@@ -1,4 +1,5 @@
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
     * {
         padding: 0px;
@@ -10,6 +11,9 @@
         color: white;
         font-size: 48px;
         font-family: 'Exo 2', sans-serif;
+    }
+    a {
+        text-decoration: none;
     }
     .info {
     width: 100%;
@@ -44,10 +48,58 @@
 }
     .about {
         padding: 25px;
+        margin-bottom: 50px;
     }
     .bio {
         font-size: 16px;
+        width: 33%;
+        box-sizing: border-box;
+        padding-right: 45px;
+        float: left;
+        padding-top: 50px;
     }
+    footer {
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 50px;
+        display: flex;
+    }
+    footer p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    footer a {
+        color: lightgray;
+        text-decoration: none;
+
+    }
+    footer a:hover {
+        color: white;
+    }
+    footer a i {
+        padding-right: 10px;
+    }
+    .copyright {
+        width: 66%;
+    }
+    .social {
+        width: 33%;
+    }
+    .clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.clear {
+  clear: both;
+  display: block;
+}
     </style>
 
             <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
@@ -56,9 +108,9 @@
 
     <div class="info">
     <div class="key">
-    <a href="index">Graphic Design Readings</a></div>
+    <a href="{{ site.github.url }}/index">Graphic Design Readings</a></div>
 
-    <div class="about-link"><a href="index">Archive</a></div>
+    <div class="about-link"><a href="{{ site.github.url }}/index">Home</a></div>
 </div>
 
 <div class="about">
@@ -66,4 +118,20 @@
     {{ content }}
 
 </div>
+
+    <section class="clear"></section>
+
+<footer>
+
+    <div class="copyright">
+    <p>All essays and books © their respective authors. A <a href="http://www.jarrettfuller.com">Jarrett Fuller</a> Production.</p>
+    </div>
+
+    <div class="social">
+<p><a href="http://www.jarrettfuller.com"><i class="fa fa-external-link" aria-hidden="true"></i> jarrettfuller.com</a></p>
+<p><a href="http://www.scratchingthesurface.fm"><i class="fa fa-external-link" aria-hidden="true"></i> scratchingthesurface.fm</a></p>
+<p><a href="http://www.twitter.com/jarrettfuller"><i class="fa fa-twitter" aria-hidden="true"></i> @jarrettfuller</a></p>
+<p><a href="http://www.twitter.com/surfacepodcast"><i class="fa fa-twitter" aria-hidden="true"></i> @surfacepodcast</a></p>
+</div>
+</footer>
 </body>

@@ -16,9 +16,13 @@ A collection of canonical, recommended, and the personal favorite texts about an
 </div>
 
 <div class="bio">
-<h3>About Jarrett</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at facilisis nisi, finibus ultrices turpis. Vivamus ut enim in neque consequat rutrum. Etiam leo eros, mollis non gravida at, tincidunt ut quam. Vivamus sem est, pharetra ut velit convallis, aliquam dictum arcu. Nunc viverra ante at ipsum ultricies, id dapibus arcu gravida. Pellentesque pulvinar justo vitae porttitor convallis. Morbi viverra auctor ex, quis auctor urna condimentum sed. In tempor tortor at efficitur congue.</p>
+<h3>About Jarrett Fuller</h3>
+<p>
+Jarrett Fuller is a designer, writer, podcaster, and educator based in Brooklyn, NY. He currently teaches in the graduate Communication Design program at Pratt Institute, in the undergraduate graphic design program at The New School Parsons School of Design, and is a Senior Lecturer at The University of the Arts. He previously was on the adjunct faculty in the undergraduate graphic design department at Maryland Institute College of Art. He hosts the weekly podcast, Scratching the Surface, where he interviews designers, writers, critics, and researchers about the intersection of design criticism and practice. Previously, he was a designer at Facebook, Warby Parker and The Whitney Museum of American Art. Jarrett received his MFA in graphic design, with a critical studies concentration, in 2017 from the Maryland Institute College of Art and his BFA in graphic design in 2011 from Kutztown University.</p>
+
 </div>
+
+
 
 
 
