@@ -168,6 +168,9 @@ h3 {
 /* MOBILE
 ----------------------------------- */
 @media only screen and (max-width: 715px) {
+body {
+    font-size: 16px;
+}
 
 header {
     width: 100%;
@@ -177,6 +180,12 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+}
+.info {
+    padding-left: 15px;
+}
+.about-link {
+    padding-right: 15px;
 }
     main {
         width: 100%;
