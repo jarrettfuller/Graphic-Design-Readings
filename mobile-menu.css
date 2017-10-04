@@ -10,7 +10,7 @@
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     }
 header nav ul {
     display: none;
@@ -19,9 +19,9 @@ header button.toggle {
     position: fixed;
     float: right;
     background: blue;
-    top: 1em;
+    top: 2em;
     right: 1em;
-    height: 4em;
+/*    height: 4em;*/
     width: 4em;
     z-index: 900;
     border: none;
@@ -40,9 +40,9 @@ header button.toggle:focus {
 
 .toggle span {
     display: block;
-    height: 4px;
+    height: 2px;
     background-color: white;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 3px;
@@ -53,7 +53,7 @@ header nav ul {
     position: fixed;
     left: 0;
     right: 0;
-    top: 70px;
+    bottom: 0px;
     padding-bottom: 4em;
     z-index: 99;
     background: blue;
@@ -71,6 +71,9 @@ header nav ul {
 }
 footer {
     display: none;
+}
+nav {
+    padding: 0px;
 }
 
 @media (min-width: 715px) {
