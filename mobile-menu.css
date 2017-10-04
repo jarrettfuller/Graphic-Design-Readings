@@ -96,4 +96,6 @@ header {
     header button.toggle {
         display: none;
     }
+    nav {
+    padding-top: 25px;
 }
