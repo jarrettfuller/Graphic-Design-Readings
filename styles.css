@@ -38,8 +38,8 @@ li {
     list-style-type: none;
 }
 h1 {
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 28px;
 }
 /*--Nav--*/
 nav {
@@ -181,8 +181,14 @@ header {
     padding-right: 15px;
     padding-bottom: 15px;
 }
+    h1 {
+        font-size: 20px;
+    }
 .info {
     padding-left: 15px;
+}
+.key li {
+    padding-right: 10px;
 }
 .about-link {
     padding-right: 15px;
@@ -193,7 +199,7 @@ header {
         padding-top: 200px;
     }
 .category {
-        padding-top: 75px;
+        padding-top: 60px;
     }
     .cat-title {
         padding-left: 15px;
@@ -205,16 +211,17 @@ header {
     display: flex;
 }
 .icon {
-    width: 8%;
+    width: 10%;
 }
 .title {
-    width: 70%;
+    width: 65%;
 }
 .author {
-    width: 50%;
+    width: 35%;
 }
 .year {
     width: 20%;
+    display: none;
 }
 
 /*--HEADER--*/
@@ -222,6 +229,7 @@ header {
     header h1 {
         width: 95%;
     }
+
     /*--MENU --*/
 
 /*nav a:not(:first-child) {display: none;}*/
