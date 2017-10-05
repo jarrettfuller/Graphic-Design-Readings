@@ -1,6 +1,6 @@
 ---
 title: Clearing the Haze — Prologue to Postmodern Graphic Design Education through Sheila de Bretteville
-author: Beatriz Columina
+author: Izzy Berenson, Sarah Honeth
 type: <i class="fa fa-external-link-square" aria-hidden="true"></i>
 tags:
 - Feminism
