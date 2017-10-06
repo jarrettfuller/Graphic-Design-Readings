@@ -5,5 +5,5 @@ type: <i class="fa fa-file-text" aria-hidden="true"></i>
 tags:
 - Research
 year: 2006
-link: pdf/vanderVelden_research-distroy.pdf
+link: PDF/vanderVelden_research-distroy.pdf
 ---

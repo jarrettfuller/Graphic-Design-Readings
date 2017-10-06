@@ -1,5 +1,5 @@
 ---
-title: The (Layered) Visition Thing
+title: The (Layered) Vision Thing
 author: Mike Mills
 type: <i class="fa fa-external-link-square" aria-hidden="true"></i>
 tags:
