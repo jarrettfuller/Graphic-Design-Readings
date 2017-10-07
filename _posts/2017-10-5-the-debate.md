@@ -1,6 +1,6 @@
 ---
 title: The Debate — The Legendary Contest of Two Giants of Graphic Design
-author: Jan van Toorn, Wim Crowel
+author: Jan van Toorn, Wim Crouwel
 type: <i class="fa fa-book" aria-hidden="true"></i>
 tags:
 - Practice
