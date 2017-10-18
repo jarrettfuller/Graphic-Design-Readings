@@ -6,5 +6,5 @@ tags:
 - Race
 - Education
 year: 1998
-link: PDF/searching-for-black-aesthetic.pdf
+link: PDF/harris-blackaesthetic.pdf
 ---
