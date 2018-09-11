@@ -1,5 +1,5 @@
 ---
-title: That's Entertaining!
+title: That's Entertainment!
 author: Ian Lynam
 type: <i class="fa fa-external-link-square" aria-hidden="true"></i>
 tags:
